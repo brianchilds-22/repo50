@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d3d3d3;
+}
+
+.stopwatch {
+  flex: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid;
+  border-radius: 50px;
+  background-color: white;
+  padding: 30px;
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 100;
+  color: black;
+  /* text-shadow: 2px 2px 2px; */
+  margin-bottom: 25px;
+}
+
+.controls button {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 20px;
+  margin: 5px;
+  min-width: 125px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.5s ease;
+}
+.start-button {
+  background-color: #6aa84f;
+}
+
+.start-button:hover {
+  background-color: #96c283;
+}
+
+.stop-button {
+  background-color: #8e0000;
+}
+
+.stop-button:hover {
+  background-color: #c88484;
+}
+
+.reset-button {
+  background-color: #6fa8dc;
+}
+
+.reset-button:hover {
+  background-color: #9ac2e6;
+}
